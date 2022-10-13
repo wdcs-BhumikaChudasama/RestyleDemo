@@ -51,7 +51,7 @@ export const HomeScreen = ({
       <ButtonComponents
         title={'DarkMode'}
         onPressButton={isDarkModeEnable}
-        buttonBg={bgColor1}
+        buttonBg={'cardRegularBackground'}
         buttonStyle={{margin: 40}}
         textStyle={{margin: 20, color: 'white', textAlign: 'center'}}
       />

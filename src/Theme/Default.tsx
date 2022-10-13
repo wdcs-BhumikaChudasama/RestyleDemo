@@ -122,8 +122,5 @@ export const darktheme: Theme = {
     primaryCardText: '#111',
     lightGrey: '#111',
   },
-  textVariants: {
-    ...theme.textVariants,
-  },
 };
 export type ThemeDark = typeof darktheme;
